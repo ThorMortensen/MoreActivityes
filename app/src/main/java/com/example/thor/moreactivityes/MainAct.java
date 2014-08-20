@@ -50,40 +50,6 @@ public class MainAct extends Activity {
     }
 
 
-    @Override
-    protected void onDestroy()
-    {
-        super.onDestroy();
-        Log.d(LOGTAG, "On Destroy");
-    }
-
-    @Override
-    protected void onStart()
-    {
-        super.onStart();
-        Log.d(LOGTAG, "On Start");
-    }
-
-    @Override
-    protected void onStop()
-    {
-        super.onStop();
-        Log.d(LOGTAG, "On Stop");
-    }
-
-    @Override
-    protected void onRestart()
-    {
-        super.onRestart();
-        Log.d(LOGTAG, "On Restart");
-    }
-
-    @Override
-    protected void onResume()
-    {
-        Log.d(LOGTAG, "On Resume");
-        super.onResume();
-    }
 
     public void click(View view)
     {
