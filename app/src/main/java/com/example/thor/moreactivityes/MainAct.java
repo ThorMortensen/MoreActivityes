@@ -48,9 +48,15 @@ public class MainAct extends Activity {
         Intent intent = new Intent(this,SecondActiv.class);
         startActivity(intent);
     }
+    /*
+
+    DETTE ER EN TEST KOMMENTER TIN BRANCHING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 
+
+
+     */
     public void click(View view)
     {
         Intent implIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.jetbrains.com/idea/webhelp/viewing-method-parameter-information.html"));
